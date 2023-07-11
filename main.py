@@ -26,3 +26,5 @@ idx=dls.classes['movieId'].o2i[movieId]
 idx2=dls.classes['userId'].o2i[userId]
 val=torch.matmul(movie_factors[idx],user_factors[idx2].t())
 print("Predicted rating is",val)
+x=data[(data['movieId']==movieId) & (data['userId']==userId)]['rating'].values[0]
+print("actual value of rating",x)
