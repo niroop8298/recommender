@@ -1,6 +1,6 @@
 # recommender
-Book1.xlsx needs to be in same directory
 
-Need to have fastai installed and openpyxl
 
-You can change movieId and userId and see predicted rating for that movie and the actual rating given by user will also be shown
+Need to have fastai installed
+
+Run the program and use can see the plot. Items grouped togther should share some characteristics
